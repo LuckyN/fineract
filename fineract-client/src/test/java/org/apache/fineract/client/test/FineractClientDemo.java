@@ -36,7 +36,7 @@ public class FineractClientDemo {
     void demoClient() {
         // tag::documentation[]
         FineractClient fineract = FineractClient.builder().baseURL("https://demo.fineract.dev/fineract-provider/api/v1/").tenant("default")
-                .basicAuth("mifos", "password").build();
+                .basicAuth("administrator", "password").build();
         List<RetrieveOneResponse> staff = Calls.ok(fineract.staff.retrieveAll16(1L, true, false, "ACTIVE"));
         String name = staff.get(0).getDisplayName();
         // end::documentation[]

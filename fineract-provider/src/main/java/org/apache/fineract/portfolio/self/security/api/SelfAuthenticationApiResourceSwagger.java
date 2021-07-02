@@ -58,7 +58,7 @@ final class SelfAuthenticationApiResourceSwagger {
             public String description;
         }
 
-        @Schema(example = "mifos")
+        @Schema(example = "administrator")
         public String username;
         @Schema(example = "1")
         public Integer userId;

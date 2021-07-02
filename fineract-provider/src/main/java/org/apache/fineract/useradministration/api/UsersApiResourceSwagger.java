@@ -42,7 +42,7 @@ final class UsersApiResourceSwagger {
 
         @Schema(example = "1")
         public Long id;
-        @Schema(example = "mifos")
+        @Schema(example = "administrator")
         public String username;
         @Schema(example = "1")
         public Long officeId;
@@ -52,7 +52,7 @@ final class UsersApiResourceSwagger {
         public String firstname;
         @Schema(example = "Administrator")
         public String lastname;
-        @Schema(example = "demomfi@mifos.org")
+        @Schema(example = "demomfi@administrator.org")
         public String email;
         @Schema(example = "false")
         public Boolean passwordNeverExpires;
@@ -70,7 +70,7 @@ final class UsersApiResourceSwagger {
 
         @Schema(example = "1")
         public Long id;
-        @Schema(example = "mifos")
+        @Schema(example = "administrator")
         public String username;
         @Schema(example = "1")
         public Long officeId;
@@ -80,7 +80,7 @@ final class UsersApiResourceSwagger {
         public String firstname;
         @Schema(example = "Administrator")
         public String lastname;
-        @Schema(example = "demomfi@mifos.org")
+        @Schema(example = "demomfi@administrator.org")
         public String email;
         @Schema(example = "false")
         public Boolean passwordNeverExpires;
@@ -115,7 +115,7 @@ final class UsersApiResourceSwagger {
         public String firstname;
         @Schema(example = "User")
         public String lastname;
-        @Schema(example = "whatever@mifos.org")
+        @Schema(example = "whatever@administrator.org")
         public String email;
         @Schema(example = "1")
         public Long officeId;

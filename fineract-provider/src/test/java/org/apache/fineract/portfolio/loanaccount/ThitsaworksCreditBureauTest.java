@@ -54,7 +54,7 @@ public class ThitsaworksCreditBureauTest {
     static String process = "process";
     static String nrcID = "13/MiFoS(N)163525";
 
-    static String userName = "demomfi1@mifos.com";
+    static String userName = "demomfi1@administrator.com";
     static String password = "password";
     static String subscriptionKey = "15c15ff17493acb44cb223f2feab2fe4";
 

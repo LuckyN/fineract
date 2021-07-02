@@ -36,7 +36,7 @@ final class ExternalServicesConfigurationApiResourceSwagger {
 
         }
 
-        @Schema(example = "test@mifos.org")
+        @Schema(example = "test@administrator.org")
         public String username;
         @Schema(example = "XXXX")
         public String password;
