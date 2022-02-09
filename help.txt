@@ -1,0 +1,13 @@
+docker run --name mysql-5.7 -p 3306:3306 -e MYSQL_ROOT_PASSWORD=mysql -d mysql:5.7
+docker exec -it mysql-5.7 /bin/bash
+ mysql -u root -p
+create database fineract_default;
+create database fineract_tenants;
+docker exec -i mysql-5.7 mysql -uroot -pmysql fineract_default < fineract_default_dump.sql
+docker exec -i mysql-5.7 mysql -uroot -pmysql fineract_tenants < fineract_tenants_dump.sql
+
+Login username: administrator and password: @DM1nstr@t0r
+
+
+Other Commands
+./gradlew spotless..
